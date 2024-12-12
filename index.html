@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="random-number">Click the button to generate a random number!</p>
+    <button onclick="generateRandomNumber()">Generate</button><br>
+    <br>
+    <br>
+    <p id="weight-display">Enter your weight below:</p>
+    <input type="text" id="weight-input" placeholder="e.g., 50, 50kgs, 50.2kgs" />
+    <button onclick="displayWeight()">Submit</button><br>
+    <br>
+    <br>
+    <h1>Guess the Secret Number</h1>
+    <p id="result-display">Enter a number between 1 and 10:</p>
+    <input type="number" id="guess-input" placeholder="Enter your guess" min="1" max="10" />
+    <button onclick="checkGuess()">Submit</button><br>
+    <br>
+    <br>
+    <script src="script.js"></script>
+</body>
+</html>
